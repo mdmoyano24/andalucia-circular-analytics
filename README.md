@@ -13,29 +13,30 @@ pip install -r requirements.txt
 Open Jupyter and run the notebooks in `notebooks/`.
 
 ## Repository structure
-
+```text
 ├── data/
-│ ├── raw/ # original inputs (ESOC CSV/XLS, Junta datasets…)
-│ ├── external/ # downloaded from APIs (Eurostat…)
-│ └── processed/ # cleaned / tidy outputs ready for analysis
+│   ├── raw/          # original inputs (ESOC CSV/XLS, Junta datasets…)
+│   ├── external/     # downloaded from APIs (Eurostat…)
+│   └── processed/    # cleaned / tidy outputs ready for analysis
 │
 ├── notebooks/
-│ ├── 01_indicadores_basicos.ipynb
-│ └── 02_visualizaciones.ipynb
+│   ├── 01_indicadores_basicos.ipynb
+│   └── 02_visualizaciones.ipynb
 │
 ├── src/
-│ └── update_data.py
+│   └── update_data.py
 │
 ├── figures/
 │
 ├── docs/
-│ └── policy_brief_circularidad.md
+│   └── policy_brief_circularidad.md
 │
 ├── .github/
-│ └── workflows/ # (optional) CI to refresh data
+│   └── workflows/    # (optional) CI to refresh data
 │
 ├── README.md
 └── requirements.txt
+```
 
 ## Data sources
 - **Andalusia – ESOC 2023**: household sustainable habits (CSV microdata + XLS dictionary).  
