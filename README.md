@@ -18,8 +18,8 @@ This repository provides reproducible pipelines, tidy datasets, and visualizatio
 │   └── processed/    # cleaned / tidy outputs ready for analysis
 │
 ├── notebooks/
-│   ├── 01_indicadores_basicos.ipynb
-│   └── 02_visualizaciones.ipynb
+│   ├── update_data.ipynb
+│   └── visualization.ipynb
 │
 ├── src/
 │   └── update_data.py
@@ -90,7 +90,7 @@ jupyter notebook
 Then open:
 
 - `notebooks/update_data.ipynb` → run the data update pipeline interactively.  
-- `notebooks/01-exploracion.ipynb` → explore and visualize the processed datasets.  
+- `notebooks/visualization.ipynb` → explore and visualize the processed datasets.  
 
 This mode is useful if you want to inspect intermediate steps, create plots, or extend the analysis.
 
@@ -114,8 +114,8 @@ Spain vs EU27_2020 (1995–2023).
 ---
 
 ## Notebooks
-- `01_indicadores_basicos.ipynb`: builds key indicators (waste per capita, packaging recycling, ESOC habits).  
-- `02_visualizaciones.ipynb`: Spain vs EU trends; optionally Andalusia vs Spain when regional data is available.
+- `update_data.ipynb`: builds key indicators (waste per capita, packaging recycling, ESOC habits).  
+- `visualization.ipynb`: Spain vs EU trends; optionally Andalusia vs Spain when regional data is available.
   
 ---
 
