@@ -3,16 +3,6 @@
 *.ipynb_convert/
 **/.ipynb_checkpoints/
 
-# Datos y figuras (ajusta según lo que quieras versionar)
-data/raw/
-data/processed/
-figures/
-
-# CSV/Excel pesados (opcional)
-*.csv
-*.xlsx
-*.ods
-
 # Entornos/IDE
 .env
 .venv/
